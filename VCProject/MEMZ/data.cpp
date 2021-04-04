@@ -69,7 +69,7 @@ const char *msgs[] = {
 	"|\\/|3|\\/|2",
 	"BSOD INCOMING",
 	"VIRUS PRANK (GONE WRONG)",
-	"ENJOY THE NYAN CAT",
+	"ENJOY THE TROJAN YA FUCKED UP LITTLE BITCH,
 	"Get dank antivirus m9!",
 	"You are an idiot!\r\nHA HA HA HA HA HA HA",
 	"#MakeMalwareGreatAgain",
